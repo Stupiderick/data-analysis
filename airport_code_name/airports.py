@@ -14,5 +14,5 @@ def convert(theFile):
             item = line.split('\n')
             code = item[1][:3]
             city = item[1][4:]
-            print('The code of the airport of {0} is {1}'.format(city, code)). # Print out the readable sentences.
-            
+            # Print out the readable sentences.
+            print('The code of the airport of {0} is {1}'.format(city, code)).
